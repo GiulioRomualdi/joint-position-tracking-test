@@ -36,8 +36,8 @@ The script will:
 - run a python script to plot the data in a file called `figure.png`
 
 The [`jointControlOptions.ini`](./cpp/app/jointControlOptions.ini) file contains some parameters that you may modify to control a given joint:
-- `max_angle_deg`: is the max angle riched by the joint (the value is in degrees)
-- `min_angle_def`: is the min angle riched by the joint (the value is in degrees)
+- `max_angle_deg`: is the max angle reached by the joint (the value is in degrees)
+- `min_angle_def`: is the min angle reached by the joint (the value is in degrees)
 - `trajectory_duration`: is the duration of the generated trajectory (the value is in seconds)
 - `robot_name`: name of the robot
 - `joints_list`: list of the controlled joint (for the time being multiple joints control is not supported. Please specify only one joint)
