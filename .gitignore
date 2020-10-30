@@ -1,0 +1,11 @@
+# build folder
+build/*
+
+# emacs
+*~
+\#*\#
+compile_commands.json
+TAGS
+
+# Qtcreator
+*.user*
