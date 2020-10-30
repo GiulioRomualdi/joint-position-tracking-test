@@ -25,7 +25,7 @@ make
 ```
 Notice: `sudo` is not necessary if you specify extend the `PATH`. In this case, it is necessary to add in the `.bashrc` or `.bash_profile` the following lines:
 ```sh
-export PATH=%{PATH}</path/where/you/installed>/bin
+export PATH=${PATH}</path/where/you/installed>/bin
 ```
 
 # :running: How to use the application
